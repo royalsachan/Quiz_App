@@ -38,19 +38,18 @@ const questions= [
   }
 ];
 
-
-
-document.getElementById('start-btn').addEventListener('click', function() {
-  document.getElementById('content').style.display = 'none';
-  document.getElementsById('questionElement').style.display = 'block';
-});
-
-
-
-
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById  ("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+
+document.getElementById('start-btn').addEventListener('click', function() {
+  document.getElementById('content').style.display = 'none';
+  var apps = document.getElementsByClassName('app');
+  for (var i = 0; i < apps.length; i++) {
+    apps[i].style.display = 'block';
+  }
+})
+
 
 let currentQuestionIndex=0;
 let score= 0;
