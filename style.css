@@ -8,8 +8,6 @@ body{
     margin:100px auto 0;
     border-radius: 10px;
     padding: 30px;
-    display: none;
-
 }
 .app h1{
     font-weight:25px;
@@ -68,6 +66,7 @@ body{
     background:#ff9393;
 
 }
+
 .frontbox{
   display: flex;
   flex-direction: column;
@@ -115,23 +114,16 @@ p {
           height: 100%;
          }
 }
-@media only screen and (max-width: 480px) {
-  .topcontainer{
-      height: 100%;
-     }
-}
 
 div {
   display: block;
   unicode-bidi: isolate;
 }
+
 .table {
   outline: none;
 }
-h1 {
-  font-size: 2em;
-  margin: .67em 0;
-}
+
 h1 {
   display: block;
   font-size: 2em;
@@ -146,9 +138,7 @@ h1 {
   display: block;
   margin: 0px auto;
 }
-img {
-  border: 0;
-}
+
 img{
   overflow-clip-margin: content-box;
   overflow: clip;
@@ -178,7 +168,7 @@ img{
     margin-top: 14px;
 }
 
-  #email-content{
+#email-content{
     font-family: "Untitled Sans", sans-serif;
       color: rgb(25, 23, 23);
       font-style: normal;
@@ -187,8 +177,8 @@ img{
       line-height: 28px;
       margin-bottom: 32px;
   
-  }
-  input{
+ }
+ input{
     font-family: "Untitled Sans", sans-serif;
       color: rgb(25, 23, 23);
       font-style: normal;
@@ -205,7 +195,7 @@ img{
       border: 1px solid rgb(170, 170, 170);
       padding: 17px 19px;
   }
-  #email-copy{
+ #email-copy{
     font-family: "Untitled Sans", sans-serif;
     color: rgb(25, 23, 23);
     font-style: normal;
@@ -214,8 +204,8 @@ img{
     line-height: 20px;
     margin-top: 28px;
     text-align: center;
-  }
-  #email-result{
+}
+#email-result{
     font-family: "Untitled Sans", sans-serif;
       color: rgb(25, 23, 23);
       font-style: normal;
@@ -225,14 +215,13 @@ img{
       text-align: center;
       margin-top: 28px;
   
-  }
-  @media only screen and (max-width: 480px) {
-    
-        #submit-email{
+}
+@media only screen and (max-width: 480px) { 
+  #submit-email{
             margin-bottom: 28px;
         }
     }
-  #submit-email{
+#submit-email {
     display: flex;
       -webkit-box-pack: center;
       justify-content: center;
@@ -255,6 +244,6 @@ img{
       color: rgb(255, 255, 255);
       margin-top: 28px;
   }
-  .hidden {
+.hidden {
       display: none;
     }
